@@ -1,5 +1,5 @@
 public class Pet {
-    String waktu, hewan, kategori, item;
+    String jenis, waktu, hewan, kategori, item;
     double harga;
 
     public Pet(String w, String h, String k, String i, double hg) {

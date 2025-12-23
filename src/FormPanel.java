@@ -171,6 +171,17 @@ public class FormPanel extends JPanel {
 
             manager.saveToFile();
             manager.refreshTable();
+            manager.saveToFile();
+            manager.refreshTable();
+
+            JOptionPane.showMessageDialog(
+                    this,
+                    "Data berhasil ditambahkan!",
+                    "Sukses",
+                    JOptionPane.INFORMATION_MESSAGE
+            );
+
+            app.card.show(app.mainPanel,"table");
 
             app.card.show(app.mainPanel,"table");
 

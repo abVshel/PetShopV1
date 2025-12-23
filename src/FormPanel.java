@@ -55,7 +55,7 @@ public class FormPanel extends JPanel {
         FormStyle.back(btnBack);
 
         btnSave.addActionListener(e -> saveData());
-        btnBack.addActionListener(e -> app.card.show(app.mainPanel,"table"));
+        btnBack.addActionListener(e -> app.card.show(app.mainPanel,"menu"));
 
         add(new JLabel("Waktu"));
         add(txtWaktu);

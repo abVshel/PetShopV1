@@ -70,9 +70,7 @@ petshop_data.csv
 
 ## 🧠 Flow Program
 
-Buka Aplikasi →
-Dashboard →
-(Pilih)
+Buka Aplikasi → Dashboard → (Pilih)
 • List Data → Kelola Data
 • Input Data → Tambah Data Baru
 • History → Lihat Riwayat

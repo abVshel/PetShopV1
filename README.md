@@ -1,168 +1,140 @@
-🐾 Pet Shop Management System (Java Swing)
-
-Aplikasi Pet Shop Management System berbasis Java Swing yang digunakan untuk mengelola transaksi pada toko hewan peliharaan.
-Aplikasi ini dilengkapi dengan fitur Dashboard, Input Data, List Data, Riwayat Transaksi, dan penyimpanan data otomatis ke file CSV.
-
-Aplikasi dibuat sederhana, stabil, mudah dipahami, dan cocok untuk pembelajaran OOP & GUI Java.
-
-📌 Daftar Isi
-
-🐾 Pet Shop Management System (Java Swing)
-
-📌 Daftar Isi
-
-✨ Fitur Utama
-
-🏠 Dashboard
-
-📋 List Data
-
-📝 Input Data
-
-📜 Riwayat Transaksi
-
-🧠 Flow Program
-
-🛠️ Teknologi yang Digunakan
-
-💾 Penyimpanan Data (CSV)
-
-▶️ Cara Menjalankan Aplikasi
-
-👨‍💻 Author
-
-✨ Fitur Utama
-🏠 Dashboard
-
-Tampilan utama aplikasi
-
-Navigasi ke:
-
-List Data
-
-Input Data
-
-Riwayat Transaksi
-
-📋 List Data
-
-Menampilkan seluruh data transaksi dalam tabel
-
-🔍 Pencarian data (Search)
-
-✏️ Edit data
-
-🗑 Hapus data
-
-⬅ Kembali ke Dashboard
-
-📝 Input Data
-
-Input transaksi baru
-
-Otomatis mengisi:
-
-⏰ Waktu transaksi
-
-Pilihan:
-
-🐾 Hewan: Kucing / Anjing
-
-📦 Kategori: Makanan / Kesehatan / Aksesoris
-
-Sistem otomatis:
-
-Menampilkan daftar item sesuai pilihan
-
-Menentukan harga otomatis
-
-💾 Simpan → data masuk tabel + CSV
-
-⬅ Kembali → ke Dashboard
-
-📜 Riwayat Transaksi
-
-Menampilkan seluruh data transaksi yang sudah tersimpan
-
-Data hanya bisa dilihat (read only)
-
-⬅ Kembali ke Dashboard
-
-🧠 Flow Program
-
-1️⃣ Jalankan aplikasi → masuk Dashboard
-2️⃣ Pilih menu:
-
-List Data
-
-Menampilkan tabel
-
-Bisa edit / hapus / search
-
-Input Data
-
-Isi form
-
-Save → data tersimpan + kembali ke List
-
-Back → kembali ke Dashboard
-
-Riwayat Transaksi
-
-Menampilkan history transaksi
-
-Tidak bisa edit
-
-🛑 Exit → Data tetap tersimpan karena disimpan ke CSV
-
-🛠️ Teknologi yang Digunakan
-
-Java
-
-Java Swing
-
-JTable
-
-DefaultTableModel
-
-File Handling (CSV)
-
-OOP Structure
-
-💾 Penyimpanan Data (CSV)
-
-Data disimpan otomatis ke file:
+# 🐾 Pet Shop Management System (Java Swing)
+
+Aplikasi **Pet Shop Management System** adalah aplikasi desktop berbasis **Java Swing** yang digunakan untuk mengelola transaksi pet shop seperti pembelian makanan, aksesoris, dan kebutuhan hewan peliharaan lainnya.  
+Aplikasi ini memiliki fitur **CRUD**, penyimpanan otomatis ke file **CSV**, desain UI yang sederhana namun informatif, serta mudah digunakan.
+
+---
+
+## 📚 Daftar Isi
+- [✨ Fitur Utama](#-fitur-utama)
+- [🧠 Flow Program](#-flow-program)
+- [🛠️ Teknologi yang Digunakan](#️-teknologi-yang-digunakan)
+- [📦 Penyimpanan Data](#-penyimpanan-data)
+- [▶️ Cara Menjalankan Aplikasi](#️-cara-menjalankan-aplikasi)
+- [🎯 Tujuan Pengembangan](#-tujuan-pengembangan)
+- [👨‍💻 Pengembang](#-pengembang)
+
+---
+
+## ✨ Fitur Utama
+
+### 🏠 1️⃣ Dashboard
+Sebagai pusat navigasi aplikasi:
+- Menu menuju **List Data**
+- Menu menuju **Input Data**
+- Menu menuju **Riwayat Transaksi**
+
+---
+
+### 📋 2️⃣ List Data
+Menampilkan seluruh data transaksi yang telah tersimpan.
+Fitur:
+- Tabel transaksi
+- Pencarian data (filter)
+- Edit data
+- Hapus data
+- Tombol kembali ke dashboard
+
+---
+
+### ✍️ 3️⃣ Input Data
+Digunakan untuk menambahkan transaksi baru.
+- Waktu otomatis (real time)
+- Pilih jenis hewan
+- Pilih kategori
+- Pilih item sesuai kategori
+- Harga otomatis muncul
+- Data disimpan ke file CSV
+- Tombol kembali ke dashboard
+
+---
+
+### 📜 4️⃣ History Panel
+Menampilkan riwayat transaksi.
+- Mode **read-only**
+- Data ditampilkan dalam bentuk tabel
+- Tombol kembali ke dashboard
+
+---
+
+## 📦 Penyimpanan Data
+Semua data tersimpan pada file berikut:
 
 petshop_data.csv
 
+yaml
+Salin kode
 
-Format:
+✔ Tidak membutuhkan database  
+✔ Aman & stabil  
+✔ Dapat dibuka dengan Excel / Notepad
 
-Tanggal,Hewan,Kategori,Item,Harga
+---
 
+## 🧠 Flow Program
 
-CSV ini akan:
+Buka Aplikasi →
+Dashboard →
+(Pilih)
+• List Data → Kelola Data
+• Input Data → Tambah Data Baru
+• History → Lihat Riwayat
+→ Data Disimpan ke CSV
+→ Update Otomatis ke Tabel
 
-Dibaca saat aplikasi dibuka
+yaml
+Salin kode
 
-Diupdate saat data ditambah / edit / delete
+---
 
-▶️ Cara Menjalankan Aplikasi
-1️⃣ Buka Project di IntelliJ IDEA / NetBeans / VSCode Java
-2️⃣ Pastikan file berikut ada:
+## 🛠️ Teknologi yang Digunakan
+| Komponen | Teknologi |
+|---------|-----------|
+| Bahasa Pemrograman | Java |
+| Framework GUI | Java Swing |
+| Penyimpanan Data | CSV |
+| IDE Rekomendasi | IntelliJ IDEA |
 
-✔ PetShopApp.java
-✔ Panel Files (Dashboard, Form, List, History)
-✔ PetTableManager.java
-✔ petshop_data.csv (akan dibuat otomatis jika belum ada)
+---
 
-3️⃣ Jalankan
+## ▶️ Cara Menjalankan Aplikasi
 
-➡ Jalankan PetShopApp.java
+### 🔹 1️⃣ Via IntelliJ IDEA (Direkomendasikan)
+1. Buka IntelliJ
+2. Pilih **Open Project**
+3. Pilih folder project
+4. Buka file:
+PetShopApp.java
 
-Aplikasi siap digunakan 🎉
+yaml
+Salin kode
+5. Tekan **Run ▶️**
 
-👨‍💻 Author
+---
 
-Lupus (abVshel)
-Project Tugas Praktikum Java Swing
+### 🔹 2️⃣ Via Terminal / CMD
+Pastikan Java sudah terinstall.
+javac *.java
+java PetShopApp
+
+yaml
+Salin kode
+
+---
+
+## 🎯 Tujuan Pengembangan
+✔ Membangun aplikasi desktop sederhana  
+✔ Menerapkan konsep OOP  
+✔ Menerapkan Java Swing GUI  
+✔ Mengelola data menggunakan file CSV  
+✔ Digunakan untuk pembelajaran & tugas akademik
+
+---
+
+## 👨‍💻 Pengembang
+Nama  : **Abrasha / Lupus**  
+Project dikembangkan untuk keperluan pembelajaran & tugas pemrograman.
+
+---
+
+✨ *Feel free to improve, customize UI, atau menambahkan fitur lain!*  

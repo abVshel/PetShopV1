@@ -1,4 +1,4 @@
-# 🐾 Pet Shop Management System (Java Swing)
+# 🐾 Pet Shop Management System
 
 Aplikasi **Pet Shop Management System** adalah aplikasi desktop berbasis **Java Swing** yang digunakan untuk mengelola transaksi pet shop seperti pembelian makanan, aksesoris, dan kebutuhan hewan peliharaan lainnya.  
 Aplikasi ini memiliki fitur **CRUD**, penyimpanan otomatis ke file **CSV**, desain UI yang sederhana namun informatif, serta mudah digunakan.

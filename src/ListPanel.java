@@ -55,10 +55,10 @@ public class ListPanel extends JPanel {
         JButton btnEdit = new JButton("✏ Edit");
         ListStyle.edit(btnEdit);
 
-        JButton btnDelete = new JButton("🗑 Hapus");
+        JButton btnDelete = new JButton("Hapus");
         ListStyle.delete(btnDelete);
 
-        JButton btnBack = new JButton("⬅ Kembali");
+        JButton btnBack = new JButton("Kembali");
         ListStyle.back(btnBack);
 
         btnEdit.addActionListener(e -> editAction.run());

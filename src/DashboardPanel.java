@@ -12,16 +12,16 @@ public class DashboardPanel extends JPanel {
         setBorder(new EmptyBorder(80,300,80,300));
         setBackground(Color.decode("#B6CBBD"));
 
-        JLabel title = new JLabel("🐾 PET SHOP", JLabel.CENTER);
+        JLabel title = new JLabel("PET SHOP", JLabel.CENTER);
         title.setFont(new Font("Segoe UI", Font.BOLD, 32));
 
-        JButton btnList = new JButton("📋 List Data");
+        JButton btnList = new JButton("List Data");
         DashboardStyle.menu(btnList);
 
-        JButton btnInput = new JButton("➕ Input Data");
+        JButton btnInput = new JButton("Input Data");
         DashboardStyle.menu(btnInput);
 
-        JButton btnHistory = new JButton("📜 Riwayat Transaksi");
+        JButton btnHistory = new JButton("Riwayat Transaksi");
         DashboardStyle.menu(btnHistory);
 
         btnList.addActionListener(e -> openList.run());

@@ -73,7 +73,7 @@ public class PetShopApp extends JFrame {
         int confirm = JOptionPane.showConfirmDialog(
                 this,
                 "Apakah Anda yakin ingin menghapus data ini?",
-                "Konfirmasi Hapus",
+                "Konfirmasi",
                 JOptionPane.YES_NO_OPTION,
                 JOptionPane.WARNING_MESSAGE
         );

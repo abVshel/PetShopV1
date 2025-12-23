@@ -48,10 +48,10 @@ public class FormPanel extends JPanel {
                 txtHarga.setText(String.valueOf(list.get(idx).price));
         });
 
-        JButton btnSave = new JButton("💾 Simpan");
+        JButton btnSave = new JButton("Simpan");
         FormStyle.save(btnSave);
 
-        JButton btnBack = new JButton("⬅ Kembali");
+        JButton btnBack = new JButton("Kembali");
         FormStyle.back(btnBack);
 
         btnSave.addActionListener(e -> saveData());

@@ -79,33 +79,15 @@ Buka Aplikasi → Dashboard → (Pilih)
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
-| Komponen | Teknologi |
-|---------|-----------|
-| Bahasa Pemrograman | Java |
-| Framework GUI | Java Swing |
-| Penyimpanan Data | CSV |
-| IDE Rekomendasi | IntelliJ IDEA |
-
----
-
 ## ▶️ Cara Menjalankan Aplikasi
 
-### 🔹 1️⃣ Via IntelliJ IDEA (Direkomendasikan)
+### 🔹 Via IntelliJ IDEA
 1. Buka IntelliJ
 2. Pilih **Open Project**
 3. Pilih folder project
 4. Buka file:
 PetShopApp.java
 5. Tekan **Run ▶️**
-
----
-
-### 🔹 2️⃣ Via Terminal / CMD
-Pastikan Java sudah terinstall.
-
-javac *.java
-java PetShopApp
 
 ---
 

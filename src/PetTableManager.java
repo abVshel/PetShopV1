@@ -10,7 +10,7 @@ public class PetTableManager {
 
     public PetTableManager() {
         tableModel = new DefaultTableModel(
-                new String[]{"Waktu","Hewan","Kategori","Item","Harga"},0
+                new String[]{"Jenis","Waktu","Hewan","Kategori","Item","Harga"},0
         ){
             @Override
             public boolean isCellEditable(int r,int c){ return false; }

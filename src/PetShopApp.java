@@ -15,7 +15,6 @@ public class PetShopApp extends JFrame {
     int editIndex = -1;
 
     public PetShopApp(){
-        //judul
         setTitle("Pet Shop Management");
         setSize(950,550);
         setLocationRelativeTo(null);
@@ -69,7 +68,6 @@ public class PetShopApp extends JFrame {
         int row = listPanel.table.getSelectedRow();
         if(row<0) return;
 
-        // Konfirmasi dulu
         int confirm = JOptionPane.showConfirmDialog(
                 this,
                 "Apakah Anda yakin ingin menghapus data ini?",
@@ -87,7 +85,6 @@ public class PetShopApp extends JFrame {
         manager.saveToFile();
         manager.refreshTable();
 
-        // Popup sukses
         JOptionPane.showMessageDialog(
                 this,
                 "Data berhasil dihapus!",

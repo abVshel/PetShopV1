@@ -8,7 +8,6 @@ Aplikasi ini memiliki fitur **CRUD**, penyimpanan otomatis ke file **CSV**, desa
 ## 📚 Daftar Isi
 - [✨ Fitur Utama](#-fitur-utama)
 - [🧠 Flow Program](#-flow-program)
-- [🛠️ Teknologi yang Digunakan](#️-teknologi-yang-digunakan)
 - [📦 Penyimpanan Data](#-penyimpanan-data)
 - [▶️ Cara Menjalankan Aplikasi](#️-cara-menjalankan-aplikasi)
 - [🎯 Tujuan Pengembangan](#-tujuan-pengembangan)

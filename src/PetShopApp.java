@@ -69,11 +69,33 @@ public class PetShopApp extends JFrame {
         int row = listPanel.table.getSelectedRow();
         if(row<0) return;
 
+        // Konfirmasi dulu
+        int confirm = JOptionPane.showConfirmDialog(
+                this,
+                "Apakah Anda yakin ingin menghapus data ini?",
+                "Konfirmasi Hapus",
+                JOptionPane.YES_NO_OPTION,
+                JOptionPane.WARNING_MESSAGE
+        );
+
+        if(confirm != JOptionPane.YES_OPTION){
+            return;
+        }
+
         row = listPanel.table.convertRowIndexToModel(row);
         manager.petList.remove(row);
         manager.saveToFile();
         manager.refreshTable();
+
+        // Popup sukses
+        JOptionPane.showMessageDialog(
+                this,
+                "Data berhasil dihapus!",
+                "Berhasil",
+                JOptionPane.INFORMATION_MESSAGE
+        );
     }
+
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> new PetShopApp().setVisible(true));

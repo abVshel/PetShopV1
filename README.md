@@ -132,7 +132,8 @@ Salin kode
 ---
 
 ## 👨‍💻 Pengembang
-Nama  : **Abrasha / Lupus**  
+Nama  : **@abVshel / Rhiwugha Dwi. S**  
+Nama  : **@azrberna / Aminatus Zarodiyah Riberna** 
 Project dikembangkan untuk keperluan pembelajaran & tugas pemrograman.
 
 ---

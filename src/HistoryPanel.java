@@ -18,7 +18,7 @@ public class HistoryPanel extends JPanel {
         table.setRowSorter(sorter);
 
         JPanel bottom = new JPanel();
-        JButton btnBack = new JButton("⬅ Kembali");
+        JButton btnBack = new JButton("Kembali");
         HistoryStyle.back(btnBack);
 
         btnBack.addActionListener(e -> goMenu.run());

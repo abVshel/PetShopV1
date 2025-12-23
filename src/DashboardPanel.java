@@ -12,8 +12,8 @@ public class DashboardPanel extends JPanel {
         setBorder(new EmptyBorder(80,300,80,300));
         setBackground(Color.decode("#B6CBBD"));
 
-        JLabel title = new JLabel("PET SHOP", JLabel.CENTER);
-        title.setFont(new Font("Segoe UI", Font.BOLD, 32));
+        JLabel title = new JLabel("PET SHOP SYSTEM", JLabel.CENTER);
+        title.setFont(new Font("Comic Sans MS", Font.BOLD, 32));
 
         JButton btnList = new JButton("List Data");
         DashboardStyle.menu(btnList);

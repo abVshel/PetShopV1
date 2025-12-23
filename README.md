@@ -62,9 +62,6 @@ Semua data tersimpan pada file berikut:
 
 petshop_data.csv
 
-yaml
-Salin kode
-
 ✔ Tidak membutuhkan database  
 ✔ Aman & stabil  
 ✔ Dapat dibuka dengan Excel / Notepad
@@ -81,9 +78,6 @@ Dashboard →
 • History → Lihat Riwayat
 → Data Disimpan ke CSV
 → Update Otomatis ke Tabel
-
-yaml
-Salin kode
 
 ---
 
@@ -105,9 +99,6 @@ Salin kode
 3. Pilih folder project
 4. Buka file:
 PetShopApp.java
-
-yaml
-Salin kode
 5. Tekan **Run ▶️**
 
 ---
@@ -116,9 +107,6 @@ Salin kode
 Pastikan Java sudah terinstall.
 javac *.java
 java PetShopApp
-
-yaml
-Salin kode
 
 ---
 
@@ -134,7 +122,6 @@ Salin kode
 ## 👨‍💻 Pengembang
 Nama  : **@abVshel / Rhiwugha Dwi. S**  
 Nama  : **@azrberna / Aminatus Zarodiyah Riberna** 
-Project dikembangkan untuk keperluan pembelajaran & tugas pemrograman.
 
 ---
 

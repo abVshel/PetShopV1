@@ -105,6 +105,7 @@ PetShopApp.java
 
 ### 🔹 2️⃣ Via Terminal / CMD
 Pastikan Java sudah terinstall.
+
 javac *.java
 java PetShopApp
 

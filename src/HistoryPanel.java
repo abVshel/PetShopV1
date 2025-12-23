@@ -32,7 +32,7 @@ public class HistoryPanel extends JPanel {
 /* ================= STYLE ================= */
 class HistoryStyle {
     public static void back(JButton btn){
-        btn.setBackground(Color.decode("#5DA3FA"));
+        btn.setBackground(Color.decode("#B2CD9C"));
         btn.setForeground(Color.WHITE);
         btn.setFont(new Font("Poppins", Font.BOLD, 14));
         btn.setBorderPainted(false);

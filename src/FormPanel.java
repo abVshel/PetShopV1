@@ -193,7 +193,7 @@ class FormStyle {
     }
 
     public static void back(JButton btn){
-        btn.setBackground(Color.decode("#A685E2"));
+        btn.setBackground(Color.decode("#B2CD9C"));
         btn.setForeground(Color.WHITE);
         btn.setFont(new Font("Poppins", Font.BOLD, 14));
         btn.setBorderPainted(false);

@@ -39,7 +39,7 @@ public class ListPanel extends JPanel {
             } catch (Exception ex){
                 JOptionPane.showMessageDialog(null,
                         "Data tidak ditemukan!",
-                        "Peringatan",
+                        "warr",
                         JOptionPane.WARNING_MESSAGE);
 
                 sorter.setRowFilter(null);

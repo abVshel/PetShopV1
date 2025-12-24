@@ -164,25 +164,22 @@ public class FormPanel extends JPanel {
                     harga
             );
 
-            if(editIndex>=0)
+            if(editIndex>=0){
                 manager.petList.set(editIndex,p);
-            else
+                JOptionPane.showMessageDialog(this,
+                        "Data berhasil diubah!",
+                        "Sukses",
+                        JOptionPane.INFORMATION_MESSAGE);
+            } else {
                 manager.petList.add(p);
+                JOptionPane.showMessageDialog(this,
+                        "Data berhasil ditambahkan!",
+                        "Sukses",
+                        JOptionPane.INFORMATION_MESSAGE);
+            }
 
             manager.saveToFile();
             manager.refreshTable();
-            manager.saveToFile();
-            manager.refreshTable();
-
-            JOptionPane.showMessageDialog(
-                    this,
-                    "Data berhasil ditambahkan!",
-                    "Sukses",
-                    JOptionPane.INFORMATION_MESSAGE
-            );
-
-            app.card.show(app.mainPanel,"table");
-
             app.card.show(app.mainPanel,"table");
 
         } catch (Exception e){
